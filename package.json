@@ -1,11 +1,27 @@
 {
-  "name": "node-user-agents",
+  "name": "agents",
   "description": "Quick HTTP user agent headers for slightly-immoral-and-very-improper web scraping",
   "author": "Eric Jang",
   "version": "0.0.1",
   "dependencies": {
-		"fs" : "*",
-		"xml2js" : "*"
-	},
-  "engine": "node >= 0.6.6"
+    "fs": "*",
+    "xml2js": "*"
+  },
+  "engine": "node >= 0.6.6",
+  "main": "node-user-agents.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "agents.randomAgentString()"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ericjang/node-user-agents.git"
+  },
+  "keywords": [
+    "User",
+    "Agent",
+    "HTTP",
+    "Headers"
+  ],
+  "license": "BSD"
 }
