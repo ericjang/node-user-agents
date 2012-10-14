@@ -1,0 +1,11 @@
+{
+  "name": "node-user-agents",
+  "description": "Quick HTTP user agent headers for slightly-immoral-and-very-improper web scraping",
+  "author": "Eric Jang",
+  "version": "0.0.1",
+  "dependencies": {
+		"fs" : "*",
+		"xml2js" : "*"
+	},
+  "engine": "node >= 0.6.6"
+}
