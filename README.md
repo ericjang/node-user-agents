@@ -3,8 +3,7 @@ node-user-agents
 
 # agents
 
-Quick HTTP user agent headers for slightly-immoral-and-very-improper web scraping. It's so stupidly simple that you could probably write this yourself. There is no documentation because it's just a few lines (albeit quite nifty few lines) of code.
-
+Quick HTTP user agent headers for slightly-immoral-and-very-improper web scraping. It's so stupidly simple that you could probably write this yourself.
 
 ##Usage:
 
