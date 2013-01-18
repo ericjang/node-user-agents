@@ -5,7 +5,7 @@ var fs = require('fs'),
 var agents = (function(){
 	var c = {};
 	c.agents = [];
-	
+
 	c.setStrings = function(){
 		var parser = new xml2js.Parser();
 		fs.readFile(__dirname + '/allagents.xml', function(err, data) {
@@ -16,14 +16,20 @@ var agents = (function(){
 		    });
 		});
 	}
-	
+
 	c.randomAgentString = function(){
 		//fetches a random UserAgent String
 		var randomIndex = Math.floor(Math.random()*c.agents.length);
 		return c.agents[randomIndex];
 	}
+
+  c.google = function(){
+    //returns google's agent string
+    return 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)'
+  }
+
 	return c;
-	
+
 })();
 
 agents.setStrings();
